@@ -247,7 +247,7 @@ dentity col
     unique (one null, can be fk)
 
     differ:
-     - pk can have null value, unique can take 1 null value
+     - pk can not have null value, unique can take 1 null value
      - only 1 pk in a table but multiple unique
      - promary key by default sort data in asc order, unique do not sort
      - pk create cluster index, unique create non-clustered index
